@@ -1,0 +1,86 @@
+Introduction
+
+This report investigates the relationship between exam dates and search behavior based on historical search data and a dataset of exam dates. The primary objective is to determine whether the frequency of daily searches decreases during exam periods, including the 10 days leading up to the exam date.
+Also, the reason of choosing this pathway is because my main social media platform is youtube. I almost spent most of my time in this platform.
+
+Datasets
+
+1. Filtered Daily Search Counts
+Source: filtered_daily_search_counts_2024.csv
+Description: Contains daily search counts for the year 2024, excluding July and August to focus on active academic months.
+2. Exam Counts with Subjects
+Source: exam_counts_with_subjects_2024.csv
+Description: Contains exam dates along with the number of exams and associated subjects for each day.
+Methodology
+
+Data Preprocessing:
+Dates with invalid or missing values were excluded.
+Search counts were categorized as:
+Exam Period or Exam Date: Dates within 10 days leading up to an exam, including the exam date.
+Other Dates: All other dates.
+Analysis:
+Search counts were aggregated by category (Exam Period or Exam Date vs. Other).
+Mean and median were calculated for both categories to observe overall trends.
+Visualizations were generated to represent data trends and facilitate understanding.
+Findings
+
+1. Key Statistics
+Other Dates (Blue):
+Mean Search Count: 15.32
+Median Search Count: 14.0
+Exam Period or Exam Date (Green/Red):
+Mean Search Count: 10.45
+Median Search Count: 9.0
+2. Observations
+Search counts are significantly lower during exam periods compared to other dates.
+The mean and median for Exam Period or Exam Date are consistently lower, indicating reduced online activity during these times.
+Visualizations
+
+1. Histogram of Daily Search Counts
+
+During this visualization process, I wanted to show that number of search counts during exam period,
+is almost remained same as other days' search counts.
+
+Blue: Search counts for dates outside exam periods.
+Green/Red: Search counts for exam periods and exam dates.
+The mean and median lines indicate a significant drop in search activity during exam periods.
+2. Total Search Counts by Category
+
+But, in this visualization, I realised that during exam day, the number of searches dramatically decreased.
+
+Displays the total search counts for Exam Period or Exam Date and Other dates.
+Highlights the disparity in search behavior between the two categories.
+3. Grouped Bar Chart: Search Counts by Month
+Visualizes search counts for each month, split into Exam Period or Exam Date and Other.
+Reinforces the pattern of lower search activity during exam times.
+Conclusion
+
+The analysis conclusively shows a reduction in search activity during exam periods. This behavior aligns with the hypothesis that students are less engaged in online activities as they prepare for and focus on exams.
+
+This insight can inform future studies, such as:
+
+Identifying patterns in specific search terms during exams.
+Comparing data across different years to validate consistency.
+Future Work
+Explore the content of searches (e.g., educational vs. recreational) during exam periods.
+Compare search patterns with academic performance to uncover potential correlations.
+References
+
+Daily Search Counts: filtered_daily_search_counts_2024.csv
+Exam Dates: exam_counts_with_subjects_2024.csv
+Generated Visualizations: Saved in the visualizations folder.
+Deliverables
+Histogram with Means and Medians: histogram_with_means_medians.png
+Bar Chart Comparison: bar_chart.png
+Grouped Bar Chart: grouped_bar_chart.png
+
+In this project, my main purpose is to create a relationship between my exam preparation process,
+and the number of youtube searches during that period. According to the analysis, I proved that
+there is lower search counts during my exam period, but not seriously big change is happened. So
+at the end of the project I realised that there is no direct relationship, between my exam preparation
+and youtube search counts, but during exam day, count of searches searches dramatically decreased.
+
+
+
+
+
