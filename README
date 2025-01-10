@@ -74,11 +74,16 @@ Histogram with Means and Medians: histogram_with_means_medians.png
 Bar Chart Comparison: bar_chart.png
 Grouped Bar Chart: grouped_bar_chart.png
 
-In this project, my main purpose is to create a relationship between my exam preparation process,
-and the number of youtube searches during that period. According to the analysis, I proved that
-there is lower search counts during my exam period, but not seriously big change is happened. So
-at the end of the project I realised that there is no direct relationship, between my exam preparation
-and youtube search counts, but during exam day, count of searches searches dramatically decreased.
+Based on the results from the logistic regression model:
+
+Accuracy: The model has a low accuracy (40%), which indicates it struggles to correctly classify the relationship between exam periods and high search counts.
+Confusion Matrix: The model misclassifies a significant number of cases, particularly during non-exam periods.
+Classification Report: The metrics suggest that while the model identifies high search counts during exam periods (class 1) reasonably well (high recall), it fails to generalize well across all data.
+Conclusion:
+Your hypothesis states: "Exam periods affect daily search counts."
+
+Given the low accuracy and poor generalizability of the model, there isn't strong enough evidence to accept my hypothesis,
+also from the visualizations of these charts, I can say that there is weak relationship between my hypothesis and the visualizations of these charts.
 
 
 
